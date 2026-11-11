@@ -7,6 +7,8 @@ name: GPU Simulator
 # does not replace it.
 
 on:
+  push:
+    branches: [ verify-single-job ]
   workflow_dispatch:
   pull_request:
     branches: [ develop ]
